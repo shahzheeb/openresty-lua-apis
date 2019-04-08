@@ -1,3 +1,4 @@
+
 1. brew install openresty/brew/openresty
 2. Create a project directory anywhere as per your convienence.
 3. Create two directories - conf and logs
@@ -35,8 +36,7 @@ openresty -h
 Import the postman collection - openresty-requests.postman_collection.json to get complete requests
 
 
-
-*** Interesting Points:
+#### Interesting Points:
 
 * Location directive is match based and not exact equal i.e ``` location /sayhelloSimple { ``` will serve ```sayhelloSimple```,
 ```sayhelloSimple/something``` or ```sayhelloSimple/something/rubbish```
