@@ -41,4 +41,5 @@ luac.out
 
 */logs/*
 .idea
+.DS_Store
 
