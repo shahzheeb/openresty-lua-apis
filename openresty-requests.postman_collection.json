@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "48fb9ac1-d198-4c6f-ac12-fb92199b9b9b",
+		"name": "openresty-requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "post_req",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"shahzheeb\",\n\t\"profession\":\"software engineer\",\n\t\"zip_code\":11111\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/read_request_body",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"read_request_body"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -30,8 +30,18 @@ openresty -s reload
 openresty -h
 ```
 
-6. http://localhost:8080/sayhello
+6. http://localhost:8080/sayhello and many more...
 
+Import the postman collection - openresty-requests.postman_collection.json to get complete requests
+
+
+
+*** Interesting Points:
+
+* Location directive is match based and not exact equal i.e ``` location /sayhelloSimple { ``` will serve ```sayhelloSimple```,
+```sayhelloSimple/something``` or ```sayhelloSimple/something/rubbish```
+   
 Good References:
 https://openresty.org/en/getting-started.html
+https://openresty.org/download/agentzh-nginx-tutorials-en.html
 http://www.staticshin.com/programming/definitely-an-open-resty-guide/
