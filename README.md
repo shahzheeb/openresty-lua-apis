@@ -38,7 +38,7 @@ Import the postman collection - openresty-requests.postman_collection.json to ge
 
 ### Interesting Points:
 
-* Location directive is match based and not exact equal i.e ``` location /sayhelloSimple { ``` will serve ```sayhelloSimple```,
+* Location directive is match based and not exact equal i.e ``` location /sayhelloSimple { }``` will serve ```sayhelloSimple```,
 ```sayhelloSimple/something``` or ```sayhelloSimple/something/rubbish```
    
 Good References:
