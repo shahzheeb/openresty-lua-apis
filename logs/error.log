@@ -14,3 +14,17 @@
 2019/04/08 17:17:29 [error] 46718#214203: *1 "/Users/shahzheeb/Documents/Reference-Projects/openresty-lua-apis/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
 2019/04/08 17:17:29 [error] 46718#214203: *1 "/Users/shahzheeb/Documents/Reference-Projects/openresty-lua-apis/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
 2019/04/08 17:17:30 [error] 46718#214203: *1 "/Users/shahzheeb/Documents/Reference-Projects/openresty-lua-apis/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2019/04/08 18:24:25 [error] 47251#228812: *8 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:31):2: attempt to concatenate field 'arg_a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:31): in function <content_by_lua(nginx.conf:31):1>, client: 127.0.0.1, server: , request: "GET /say_hello_var HTTP/1.1", host: "localhost:8080"
+2019/04/08 18:24:53 [error] 47251#228812: *11 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:31):2: attempt to concatenate field 'arg_a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:31): in function <content_by_lua(nginx.conf:31):1>, client: 127.0.0.1, server: , request: "GET /say_hello_var?arg_a=shahzheeb HTTP/1.1", host: "localhost:8080"
+2019/04/08 18:24:56 [error] 47251#228812: *12 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:31):2: attempt to concatenate field 'arg_a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:31): in function <content_by_lua(nginx.conf:31):1>, client: 127.0.0.1, server: , request: "GET /say_hello_var?arg_a=shahzheeb HTTP/1.1", host: "localhost:8080"
+2019/04/08 18:42:43 [error] 47379#234334: *25 failed to load inlined Lua code: content_by_lua(nginx.conf:47):5: unexpected symbol near '#', client: 127.0.0.1, server: , request: "POST /read_request_body HTTP/1.1", host: "localhost:8080"
+2019/04/08 18:42:55 [error] 47384#234429: *26 failed to load inlined Lua code: content_by_lua(nginx.conf:47):6: unexpected symbol near '#', client: 127.0.0.1, server: , request: "POST /read_request_body HTTP/1.1", host: "localhost:8080"
