@@ -1,5 +1,5 @@
 
-1. brew install openresty/brew/openresty
+1. On Mac, Run ```brew install openresty/brew/openresty```. For other OS, please refer openresty's official page.
 2. Create a project directory anywhere as per your convienence.
 3. Create two directories - conf and logs
 4. Create nginx.conf file inside conf.
@@ -40,8 +40,12 @@ Import the postman collection - openresty-requests.postman_collection.json to ge
 
 * Location directive is match based and not exact equal i.e ``` location /sayhelloSimple { }``` will serve ```sayhelloSimple```,
 ```sayhelloSimple/something``` or ```sayhelloSimple/something/rubbish```
+* ngx.var.arg_XXX to access request arguments. It ignores cases. Provided by ngx_http_core module.
+
+
    
 Good References:
 https://openresty.org/en/getting-started.html
+https://openresty-reference.readthedocs.io/en/latest/Directives/
 https://openresty.org/download/agentzh-nginx-tutorials-en.html
 http://www.staticshin.com/programming/definitely-an-open-resty-guide/
