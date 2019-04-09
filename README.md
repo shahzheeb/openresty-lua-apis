@@ -46,6 +46,10 @@ Import the postman collection - openresty-requests.postman_collection.json to ge
    
 Good References:
 https://openresty.org/en/getting-started.html
+
 https://openresty-reference.readthedocs.io/en/latest/Directives/
+
 https://openresty.org/download/agentzh-nginx-tutorials-en.html
+
 http://www.staticshin.com/programming/definitely-an-open-resty-guide/
+
