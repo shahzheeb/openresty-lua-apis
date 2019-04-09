@@ -1,4 +1,4 @@
-### Steps to Install and Run basic examples
+### Steps to Install Openresty and Run basic examples
 
 1. On Mac, Run ```brew install openresty/brew/openresty```. For other OS, please refer openresty's official page.
 2. Create a project directory anywhere as per your convienence.
