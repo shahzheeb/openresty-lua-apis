@@ -1,3 +1,4 @@
+### Steps to Install and Run basic examples
 
 1. On Mac, Run ```brew install openresty/brew/openresty```. For other OS, please refer openresty's official page.
 2. Create a project directory anywhere as per your convienence.
@@ -44,7 +45,7 @@ Import the postman collection - openresty-requests.postman_collection.json to ge
 
 
    
-Good References:
+### Good References:
 
 https://openresty.org/en/getting-started.html
 
